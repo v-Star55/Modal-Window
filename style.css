@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.75%;
+}
+
+body{
+    padding: 2rem;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #11998e, #38ef7d); 
+}
+
+/*//////////////////////////////////////
+///////////////// buttons*/
+
+.btn{
+    border: none;
+    outline: none;
+    font-size: 1.7rem;
+    background-color: #dddd;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1rem .7rem;
+    text-transform: capitalize;
+
+}
+
+.btn-close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    font-size: 3.5rem;
+    transition: 0.3s all linear;
+
+}
+
+.btn-close:hover{
+    transform: rotate(90deg);
+}
+
+
+/*////////////////////////////////////////
+///////////// MODAL*/
+
+.modal{
+    position: relative;
+    z-index: 10;
+    padding: 1rem;
+    margin: auto;
+
+    width: 35%;
+    height: 30rem;
+    border-radius: 10px;
+    background-color: #dddd;
+    transition: all 0.1s linear;
+
+}
+
+/*/////////////////////////////////
+/////////////////  CONTENT */
+
+.content{
+    margin-top: 4rem;
+    padding-inline:2rem;
+}
+
+.heading-2{
+    font-size: 3rem;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.desc{
+    margin-top: 2rem;
+    font-size: 1.7rem;
+}
+
+/*///////////////////////////////////////
+//////////  EXTRA CLASSES*/
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    background: rgba(0, 0, 0, 0.558);
+}
+
+.hidden{
+    display: hidden;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.blur{
+    filter: blur(2px);
+}
+
+
+
+
